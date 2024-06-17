@@ -1,0 +1,1 @@
+import{u as r}from"./index-4d0be3dc.js";function a(){const o=r();function e(){const t=o.currentRoute.value,u=t.fullPath.lastIndexOf("/");if(console.log("Current Route:",t.fullPath,t.path),u==0){console.log("Navigating to: /"),o.push("/");return}const n=t.path.substring(0,u);console.log("Navigating to:",n),o.push(n)}return{back:e}}export{a as u};
